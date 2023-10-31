@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+<style>
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ body{ 
+    /* color: #fff; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo-box{
+    width:100%;
+    height: 100px;
+    /* border: 2px solid red; */
+}
+.logo-box img{
+    float: right;
+    height:95px;
+    width:200px;
+}
+.navbar{
+    display:flex;
+    justify-content:space-between;
+}
+.nav ul{
+    display:flex;
+    list-style-type: none;
+    gap: 30px;
+    margin:0px 80px;
+}
+.navbar a{
+    /* color: #fff; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:15px;
+    text-decoration: none;
+    color: #000;
+    /* border-bottom:2px solid #fff; */
+    border-bottom:2px solid #000;
+    font-weight: bold;
+}
+
+.main-div{
+    width: 90%;
+    /* border: 2px solid red; */
+    margin:40px auto;
+    display: flex;
+}
+.logo{
+    display:flex;
+    gap:10px;
+    width:100px;
+    margin:20px 50px;
+    /* border: 2px solid red; */
+}
+.logo-image{
+    width:30px;
+    height: 25px;
+}
+.logo-image img{
+    width: 100%;
+    height: 100%;
+}
+.logo p{
+    font-weight: bold;
+    font-size:15px;
+}
+.left-box{
+    width: 50%;
+    /* border: 2px solid green; */
+}
+
+.left-image-box{
+    margin:40px 100px;
+    /* border: 2px solid red; */
+}
+.image-box{
+    width:200px;
+    height: 250px;
+    margin-top: 30px;
+}
+.image-box img{
+    width: 100%;
+    height: 100%;
+}
+.imageAndcontent-box{
+    /* border: 2px solid pink; */
+    display: flex;
+}
+.content-box{
+    margin:130px 30px;
+}
+.content-box p{
+    font-size: 13px;
+    font-weight: bold;
+    line-height:22px;
+    text-align: center;
+}
+.left-box .btn{
+    /* background-color: rgb(221, 227, 221); */
+    padding:10px 40px;
+    font-weight: bold;
+    margin: 0 350px;
+}
+.btn a{
+    text-decoration: none;
+    color: #000;
+}
+.right-box{
+    width: 40%;
+    /* border: 2px solid rgb(13, 0, 128); */
+}
+.right-box p{
+    text-transform: uppercase;
+    /* color: #fff; */
+    color: #000;
+    font-size: 13px;
+    word-spacing:5px;
+    font-weight: bold;
+    text-decoration: underline;
+    margin: 0px 150px;
+}
+.right-image-box{
+    /* border: 2px solid rgb(0, 255, 55); */
+}
+.image-box-right{
+    width:200px;
+    height: 300px;
+    margin-top: 5px;
+}
+.image-box-right img{
+    width: 100%;
+    height: 100%;
+}
+.right-image-box{
+    margin:20px 30%;
+    /* border: 3px solid red; */
+}
+.vertical-line{
+    width: 2px;
+    height: 850px;
+    background-color: #000;
+}
+.footer{
+	width: 100%;
+	height: 200px;
+	background-color: rgb(193, 190, 190);
+	margin-bottom: 0px;
+	margin-top: 150px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+</style>
+</head>
+<body>
+    <div class="logo-box">
+        <img src="Logo.png" alt="">
+    </div>
+
+    <div class="navbar">
+       <div class="nav navbar1">
+           <ul>
+               <li><a href="home.html">Home</a></li>
+               <li><a href="#">About us</a></li>
+               <li><a href="#">Contact us</a></li>
+               <li><a href="#">Men's</a></li>
+               <li><a href="#">Women's</a></li>
+           </ul>
+        </div>
+
+        <div class="nav navbar2">
+            <ul>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="#">WishList</a></li>
+                <li><a href="#">Cart</a></li>
+            </ul>
+         </div>
+    </div>
+
+
+    <div class="main-div">
+
+        <div class="left-box">
+            <div class="logo">
+                <div class="logo-image">
+                    <img src="Screenshot 2022-11-09 at 12.23 1.png" alt="">
+                </div>
+                <p>CART</p>
+            </div>
+
+          <div class="left-image-box">
+            <div class="imageAndcontent-box">
+            <div class="image-box">
+                <img src="Screenshot 2022-11-09 at 12.32 1.png" alt="">
+            </div>
+            <div class="content-box">
+                <p>RED KURTA SET</p>
+                <p>Rs 2800</p>
+            </div>
+          </div>
+          <div class="imageAndcontent-box">
+            <div class="image-box">
+                <img src="Screenshot 2022-11-09 at 12.35 1.png" alt="">
+            </div>
+            <div class="content-box">
+                <p>GREY LONG TOP</p>
+                <p>Rs 1800</p>
+            </div>
+            </div>
+          </div>
+
+          <button class="btn"><a href="payment.html">PAYMENT</a></button>
+        </div>
+
+        <div class="vertical-line"></div>
+        <div class="right-box">
+            <p>similar design</p>
+            <div class="right-image-box">
+                <div class="image-box-right">
+                    <img src="Screenshot 2022-11-09 at 12.48 1.png" alt="">
+                </div>
+        
+            
+                <div class="image-box-right">
+                    <img src="Screenshot 2022-11-09 at 12.53 1.png" alt="">
+                </div>
+            
+            </div>
+              
+        </div>
+    </div>
+
+    <footer class="footer">	
+		<p>Hello Friends this is footer</p>
+	</footer>
+</body>
+</html>

@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+<style>
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo-box{
+    width:100%;
+    height: 100px;
+    /* border: 2px solid red; */
+}
+.logo-box img{
+    float: right;
+    height:95px;
+    width:200px;
+}
+.navbar{
+    display:flex;
+    justify-content:space-between;
+}
+.nav ul{
+    display:flex;
+    list-style-type: none;
+    gap: 30px;
+    margin:0px 80px;
+}
+.navbar a{
+    /* color: #fff; */
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:15px;
+    text-decoration: none;
+    border-bottom:2px solid #000;
+	font-weight:bold;
+}
+.logo{
+    display:flex;
+    gap:10px;
+    width:200px;
+    /* border: 2px solid red; */
+}
+.logo-image{
+    width:40px;
+    height: 40px;
+}
+.logo-image img{
+    width: 100%;
+    height: 100%;
+}
+.logo p{
+    font-weight: bold;
+    font-size:25px;
+    margin-top:10px;
+}
+.main-box{
+    width:80%;
+    margin: 70px auto;
+    display: flex;
+}
+.left-box{
+    width: 50%;
+}
+.right-box{
+    width:40%;
+}
+.right-box img{
+    width:300px;
+    height: 500px;
+    margin:50px 100px;
+}
+
+.mar{
+    margin: 10px 100px;
+}
+.mar h2{
+    font-size: 18px;
+    text-decoration: underline;
+}
+.mar p{
+    font-size: 13px;
+}
+.payment-box{
+   margin-top: 50px;
+  
+}
+
+.edit-btn{
+    padding:5px 20px;
+    float: right;
+    margin:-70px 150px;
+    font-weight: bold;
+}
+.btn{
+    font-weight: bold;
+}
+.verify{
+    padding:10px 30px;
+    margin:50px 100px;
+}
+.confirm{
+    padding:10px 30px;
+    margin-left:-30px;
+}
+.vertical-line{
+    width: 2px;
+    height: 700px;
+    background-color: #000;
+}
+.footer{
+	width: 100%;
+	height: 200px;
+	background-color: rgb(193, 190, 190);
+	margin-bottom: 0px;
+	margin-top: 150px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+</style>
+</head>
+<body>
+    
+    <div class="logo-box">
+        <img src="Logo.png" alt="">
+    </div>
+
+    <div class="navbar">
+       <div class="nav navbar1">
+           <ul>
+               <li><a href="#">Home</a></li>
+               <li><a href="#">About us</a></li>
+               <li><a href="#">Contact us</a></li>
+               <li><a href="#">Men's</a></li>
+               <li><a href="#">Women's</a></li>
+           </ul>
+        </div>
+
+        <div class="nav navbar2">
+            <ul>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="#">WishList</a></li>
+                <li><a href="cart.html">Cart</a></li>
+            </ul>
+         </div>
+    </div>
+    
+    <div class="main-box">
+
+        <div class="left-box">
+        <div class="logo">
+            <div class="logo-image">
+                <img src="logo1.png" alt="">
+            </div>
+            <p>PROFILE</p>
+        </div>
+
+        <div class="mar">
+        <div class="payment-box xyz">
+            <h2>ADDRESS</h2>
+            <p>ABC STREET,</p>
+            <p>XYZ ROAD,</p>
+            <p>CHENNAI</p>
+
+            <button class="edit-btn">EDIT</button>
+        </div>
+
+        
+        <div class="payment-box">
+            <h2>PAYMENT OPTION:</h2>
+            <input type="radio">UPI<br>
+            <input type="radio">DEBIT/CREDIT CARD<br>
+            <input type="radio">NET BANKING<br>
+        </div>
+
+        <div class="payment-box">
+            <h2>PAYMENT MODE</h2>
+            <p>PETER MELLER <br>AXIS BANK <br>32,00</p>
+        </div>
+    </div>
+
+        <button class="btn verify">VERIFY</button>
+
+        <button class="btn confirm">CONFIRM & PROCEED</button>
+    </div>
+
+
+    <div class="vertical-line"></div>
+    <div class="right-box">
+        <img src="abc.png" alt="">
+    </div>
+    </div>
+
+    
+    <footer class="footer">	
+		<p>Hello Friends this is footer</p>
+	</footer>
+</body>
+</html>

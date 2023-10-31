@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+<style>
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo-box{
+    width:100%;
+    height: 100px;
+    /* border: 2px solid red; */
+}
+.logo-box img{
+    float: right;
+    height:95px;
+    width:200px;
+}
+.navbar{
+    display:flex;
+    justify-content:space-between;
+}
+.nav ul{
+    display:flex;
+    list-style-type: none;
+    gap: 30px;
+    margin:0px 80px;
+}
+.navbar a{
+    /* color: #fff; */
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:15px;
+    text-decoration: none;
+    border-bottom:2px solid #000;
+    font-weight: bold;
+}
+.main-area{
+    width:60%;
+    margin: 40px auto;
+}
+.logo{
+    display:flex;
+    gap:10px;
+    width:100px;
+    /* border: 2px solid red; */
+}
+.logo-image{
+    width:20px;
+    height: 20px;
+}
+.logo-image img{
+    width: 100%;
+    height: 100%;
+}
+.logo p{
+    font-weight: bold;
+    font-size:15px;
+}
+.persoin-info{
+    /* border: 2px solid red; */
+    width:50%;
+    display: flex;
+    margin:50px auto;
+}
+.image{
+    width:200px;
+    height: 200px;
+    border-radius: 50%;
+    /* border: 2px solid green; */
+    overflow: hidden;
+}
+.image img{
+    width: 100%;
+    height: 100%;
+}
+.text-info{
+    float: right;
+    margin:50px 30px;
+    width:200px;
+}
+.text-info p{
+    line-height: 30px;
+    text-transform: uppercase;
+    font-size:13px;
+}
+.list{
+    width:20%;
+    margin: 0 230px;
+    /* border: 2px solid yellow; */
+}
+.list ul{
+    list-style-type: none;
+    text-align:center;
+}
+.list ul li{
+    margin-top:25px;
+}
+.list a{
+    text-decoration: none;
+    color: #000;
+    border-bottom:2px solid #000;
+    font-size:13px;
+    font-weight: bold;
+}
+.footer{
+	width: 100%;
+	height: 200px;
+	background-color: rgb(193, 190, 190);
+	margin-bottom: 0px;
+	margin-top: 150px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+</style>
+</head>
+<body>
+    <div class="logo-box">
+        <img src="Logo.png" alt="">
+    </div>
+
+    <div class="navbar">
+       <div class="nav navbar1">
+           <ul>
+               <li><a href="home.html">Home</a></li>
+               <li><a href="#">About us</a></li>
+               <li><a href="#">Contact us</a></li>
+               <li><a href="#">Men's</a></li>
+               <li><a href="#">Women's</a></li>
+           </ul>
+        </div>
+
+        <div class="nav navbar2">
+            <ul>
+                <li><a href="#">Profile</a></li>
+                <li><a href="#">WishList</a></li>
+                <li><a href="cart.html">Cart</a></li>
+            </ul>
+         </div>
+    </div>
+
+    <div class="main-area">
+        <div class="logo">
+            <div class="logo-image">
+                <img src="Screenshot 2022-11-09 at 12.24 1.png" alt="">
+            </div>
+            <p>PROFILE</p>
+        </div>
+
+        <div class="persoin-info">
+            <div class="image">
+                <img src="Screenshot 2022-11-09 at 12.24 1.png" alt="">
+            </div>
+            <div class="text-info">
+                <p>Peter miller</p>
+                <p>male</p>
+                <p>27/11/1998</p>
+            </div>
+        </div>
+
+        <div class="list">
+            <ul>
+                <li><a href="#">ORDERS</a></li>
+                <li><a href="#">WISHLIST</a></li>
+                <li><a href="#">VOUCHERS</a></li>
+                <li><a href="#">SETTINGS</a></li>
+                <li><a href="#">POLICY</a></li>
+                <li><a href="#">LOGIN/LOGOUT</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <footer class="footer">	
+		<p>Hello Friends this is footer</p>
+	</footer>
+</body>
+</html>
